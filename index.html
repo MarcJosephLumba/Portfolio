@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fontawesome.com/icons">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <style type="text/css">
+        .alignleft{
+            margin: 0;
+            padding: 0;
+
+        }
+        .home .icons div{
+    height:80px;
+    width:80px;
+    line-height:4.5rem;
+    font-size: 4.5rem;
+    border-radius: .5rem;
+    margin-left: .5rem;
+    color:var(--text-color-1);
+    cursor: pointer;
+    text-align: center;
+    }
+
+.header .icons div:hover{
+    color:#fff;
+    background:#000000;
+}
+
+    </style>
+
+<header class="header">
+
+    <a href="#" class="logo">Marc Joseph Lumba</a>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="project.html">Project</a>
+        <a href="profile.html">Profile</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <div class="image" data-aos="fade-down">
+<p class="alignleft">
+        <img src="images/me.jpeg" alt="" width="300" height="950">
+</p>
+    </div>
+    <div class="content" data-aos="fade-up">
+        <h2>HI!<br></h2>
+        <h1>I'M MARC JOSEPH</h1>
+        <p>FRONT-END DEVELOPER</p><br><br>
+    <div class="icons">
+        <a href="https://web.facebook.com/marcjoseph.lumba.1\"><div class="fab fa-facebook"></div></a>
+        <a href="https://www.instagram.com/mj_lumbaba/"><div class="fab fa-instagram"></div></a>
+        <a href="https://github.com/MarcJosephLumba"><div class="fab fa-github"></div></a>
+    </div>
+    </div>
+
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+<script>
+
+AOS.init({
+    duration:800,
+    delay:400
+});
+
+</script>
+
+</body>
+</html>
